@@ -1,0 +1,21 @@
+{
+  "name": "template_scripts",
+  "version": "1.0.0",
+  "description": "Template scripts to quickly get a head start on a ticket.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@signalwire/compatibility-api": "^3.1.4",
+    "@signalwire/realtime-api": "^4.0.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}

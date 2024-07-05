@@ -1,10 +1,16 @@
 # Useful-SW-Scripts
-Personal repo of scripts I use in my day-to-day.
-
-Included is a .env that will need to be changed for allowing some scripts to work.
-```dot.env
-SIGNALWIRE_SPACE=Your-Space-Name-Goes-Here.signalwire.com
-SIGNALWIRE_PROJECT=Project ID Goes Here
-SIGNALWIRE_TOKEN=API Token Goes Here
-PHONE_NUMBER=SW Number Goes Here
+This is a repository of templates and examples to quickly get a customer's use case up and running.
+Included is a .env that will need the following details entered:
+```dotenv
+SPACE=example.signalwire.com
+PROJECT=Project_ID_Goes_Here
+TOKEN=API_Token_Goes_Here
+SIGNING_KEY=Signing_Key_Goes_Here
 ```
+Getting Started
+---------------
+1. Clone this repo
+2. Modify the .env with your credentials
+3. You can now begin using the scripts or modifying them to your own need.
+
+**Note: some scripts may require additional credentials.**
