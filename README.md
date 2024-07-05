@@ -1,5 +1,5 @@
 # Useful-SW-Scripts
-This is a repository of templates and examples to quickly get a customer's use case up and running.
+This is a repository of templates and examples to quickly get a customer's described use case up and running.
 Included is a .env that will need the following details entered:
 ```dotenv
 SPACE=example.signalwire.com
@@ -13,4 +13,4 @@ Getting Started
 2. Modify the .env with your credentials
 3. You can now begin using the scripts or modifying them to your own need.
 
-**Note: some scripts may require additional credentials.**
+**Note: Some scripts may require additional credentials (e.g., phone numbers).**
