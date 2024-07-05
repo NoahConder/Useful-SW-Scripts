@@ -5,7 +5,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const blocklist = ["+18156167816"];
+const blocklist = ["+15553035050"];
 
 app.post('/', (req, res) => {
     const response = new RestClient.LaML.VoiceResponse();

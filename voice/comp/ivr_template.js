@@ -63,7 +63,7 @@ app.post("/support", (req, res) => {
         record: "record-from-ringing",
         recordingStatusCallback: "/status",
     });
-    dial.number("+18192724962");
+    dial.number("+1553035050");
     res.set("Content-Type", "text/xml");
     res.send(response.toString());
 });
@@ -75,7 +75,7 @@ app.post("/sales", (req, res) => {
         record: "record-from-ringing",
         recordingStatusCallback: "/status",
     });
-    dial.sip("sip:lin@noah-space-7c08b602ff5e.sip.signalwire.com");
+    dial.sip("sip:example@example-space-55555555555.sip.signalwire.com");
     res.set("Content-Type", "text/xml");
     res.send(response.toString());
 });
