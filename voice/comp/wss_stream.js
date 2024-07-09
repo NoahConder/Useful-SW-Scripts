@@ -1,8 +1,9 @@
-const WebSocket = require('ws');
-const express = require('express');
+import { WebSocketServer } from 'ws';
+import express from 'express';
+
 const app = express();
 
-const wss = new WebSocket.Server({ noServer: true });
+const wss = new WebSocketServer({ noServer: true }); // Corrected constructor usage
 
 wss.on('connection', (ws) => {
     console.log('WebSocket connection established');
